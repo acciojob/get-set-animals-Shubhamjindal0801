@@ -29,8 +29,8 @@ class Cat extends Animal{
 }
 
 var cat = new Cat("Kitty");
-console.log(cat.makeSound())
-console.log(cat.purr())
+cat.makeSound()
+cat.purr();
 var dog = new Dog("Ligar");
-console.log(dog.makeSound())
-console.log(dog.bark())
+dog.makeSound()
+dog.bark()
