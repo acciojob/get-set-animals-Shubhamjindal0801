@@ -9,10 +9,9 @@ class Animal{
         console.log(`The ${this._species} makes a sound`);
     }
 }
-
 class Dog extends Animal{
     bark(){
-        console.log("Woof");
+        console.log("woof");
     }
 }
 
@@ -21,7 +20,6 @@ class Cat extends Animal{
         console.log("purr");
     }
 }
-
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
